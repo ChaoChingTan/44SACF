@@ -13,6 +13,7 @@
 - For instance AMI, choose the Amazon Linux 2 AMI
 - Ensure that the security group allows public access to the HTTP port (port 80)
 - Take note of the following user data to be included when creating the EC2 instance
+- Refer to the [AWS Documentation on user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) if required
 
 ---
 #!/bin/bash
