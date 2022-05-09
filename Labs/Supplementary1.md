@@ -12,6 +12,7 @@
 - Create a Linux EC2 instance in a public subnet (You may use the default VPC for this or create a Lab VPC)
 - For instance AMI, choose the Amazon Linux 2 AMI
 - Ensure that the security group allows public access to the HTTP port (port 80)
+- Generate a new key pair for this instance. You may refer to the [AWS Documentation on how to create and download key pairs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-key-pairs.html) for the guide
 - Take note of the following user data to be included when creating the EC2 instance
 - Refer to the [AWS Documentation on user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) if required
 
